@@ -103,6 +103,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -114,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -609,7 +612,7 @@ About Page
   }
 
   .features .features-item-description {
-    width: 62;
+    width: 62%;
   }
 
   .features i {
